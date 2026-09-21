@@ -1,0 +1,14 @@
+{
+  "schema_version": "es-hparam-selection-v1",
+  "protocol": "gradient-free-baselines-v1",
+  "task": "countdown",
+  "selection_split": "validation",
+  "selected_sigma": 0.001,
+  "calibration_iterations": 10,
+  "population_size": 30,
+  "upstream_commit": "574a9d134da1ffce2a8bb812019899e5c96b588a",
+  "model": {
+    "requested_name": "Qwen/Qwen2.5-1.5B-Instruct",
+    "requested_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306"
+  }
+}

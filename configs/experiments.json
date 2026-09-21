@@ -1,0 +1,31 @@
+{
+  "seeds": [42, 43, 44],
+  "train_samples": 200,
+  "precision": "bfloat16",
+  "power_iterations": 8,
+  "chat_template_date": "11 Aug 2026",
+  "mass": {"embedding": 1.0, "attention": 0.5, "mlp": 0.5, "head": 1.0, "norm": 0.1, "other": 0.1},
+  "models": {
+    "qwen-0.5b": {"name": "Qwen/Qwen2.5-0.5B-Instruct", "revision": "7ae557604adf67be50417f59c2c2f167def9a775", "profile": "profiles/qwen2.5-0.5b-countdown-modular-shell.json", "radius": 0.16},
+    "qwen-1.5b": {"name": "Qwen/Qwen2.5-1.5B-Instruct", "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306", "profile": "profiles/qwen2.5-1.5b-countdown-modular-shell.json", "radius": 0.16},
+    "qwen-3b": {"name": "Qwen/Qwen2.5-3B-Instruct", "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1", "profile": "profiles/qwen2.5-3b-countdown-modular-shell.json", "radius": 0.16},
+    "llama-3b": {"name": "meta-llama/Llama-3.2-3B-Instruct", "revision": "0cb88a4f764b7a12671c53f0838cd831a0843b95", "profile": "profiles/llama3.2-3b-countdown-modular-shell-official-randopt.json", "radius": 0.32},
+    "gemma-4b": {"name": "google/gemma-3-4b-it", "revision": "093f9f388b31de276ce2de164bdc2081324b9767", "profile": "profiles/gemma3-4b-countdown-modular-shell-official-randopt.json", "radius": 0.64},
+    "olmo-7b": {"name": "allenai/Olmo-3-7B-Instruct", "revision": "6e5971d9eba42665f5bd5a0fcf047f299ce1dccc", "profile": "profiles/olmo3-7b-countdown-modular-shell-official-randopt.json", "radius": 0.64}
+  },
+  "tasks": {
+    "countdown": {"train": "countdown/countdown_train.json", "test": "countdown/countdown_validation.json", "max_tokens": 1024},
+    "gsm8k": {"train": "gsm8k/train_200.parquet", "test": "gsm8k/test.parquet", "max_tokens": 1024},
+    "mbpp": {"train": "mbpp_train_200", "test": "mbpp_test", "max_tokens": 2048},
+    "rocstories": {"train": "rocstories/train.parquet", "test": "rocstories/test.parquet", "max_tokens": 64},
+    "uspto50k": {"train": "uspto_50k/train.parquet", "test": "uspto_50k/test.parquet", "max_tokens": 64},
+    "math500": {"train": "math-500/train.parquet", "test": "math-500/test.parquet", "max_tokens": 2048},
+    "olympiadbench": {"train": "olympiadbench/OE_TO_maths_en_COMP.parquet", "test": "olympiadbench/OE_TO_maths_en_COMP.parquet", "max_tokens": 2048}
+  },
+  "suites": {
+    "transfer": {"population": 100, "prefixes": [25, 50, 100], "ensemble_sizes": [10, 25]},
+    "scaling": {"population": 300, "prefixes": [25, 50, 100, 200, 300], "ensemble_sizes": [1, 5, 10, 25]},
+    "ablation": {"population": 100, "prefixes": [100], "ensemble_sizes": [25]},
+    "smoke": {"population": 2, "prefixes": [2], "ensemble_sizes": [1, 2], "train_samples": 2, "test_samples": 2, "max_tokens": 32}
+  }
+}

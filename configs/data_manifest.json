@@ -1,0 +1,31 @@
+{
+  "countdown": {
+    "countdown/countdown_train.json": "86f24778f6b545ae9ddb4c3fce6d3e7ce66fd0786632d5df67ca559c7c16337c",
+    "countdown/countdown_validation.json": "29186cd3825cb0beb95540c31b32e4d5e59b56387461f5616040cd4ef8193e66",
+    "countdown/countdown_test.json": "c2f9a47a63fd077f78ff51fac29955916ad7b23e96e5cb0022294dd86632c8bd"
+  },
+  "gsm8k": {
+    "gsm8k/train.parquet": "25b35f2f3dab80936193a1703f229dc44316eb24b6759435201f3d8a75f5c1c8",
+    "gsm8k/train_200.parquet": "4aff68b6180f627c84444e3384b7ed6ae1fcf082d8a456aeebd8022afd478205",
+    "gsm8k/test.parquet": "09cb3b2cd84ec2c679d600e79c094c80606d31497e78fcdf4bc4ab787c92e91f"
+  },
+  "math500": {
+    "math-500/train.parquet": "eca9ea3ca16b8c8ddd2bd95a8aff099eb68ebbddaedc0e3809832e85a133164c",
+    "math-500/test.parquet": "d6b70b6f95fc1cddb8f99bc23117c8a835546d156822973d406b54e5d563f0f6"
+  },
+  "olympiadbench": {
+    "olympiadbench/OE_TO_maths_en_COMP.parquet": "7c17ca2662b3ea77cddcb66a64b04ad9b53d3d32fa372d444a4884739eb1638d"
+  },
+  "rocstories": {
+    "rocstories/train.parquet": "3f5960b42cb868022a2473e9a0d42212967cb5e20eb996820c1aa7daacafc652",
+    "rocstories/test.parquet": "24388f16eae225f7ec799b5d366492e4ad096b0c47f1e9ce03cab20a84121e91"
+  },
+  "uspto50k": {
+    "uspto_50k/train.parquet": "3bd16de8488a26030f55659ac24b07f99dcb368a5ef05e1e732de1fef77a2e44",
+    "uspto_50k/test.parquet": "a52b3252e1d48b9dc32956b7780fb06fc5089a04c8612316e296ab068c6c6ab4"
+  },
+  "mbpp": {
+    "mbpp_train_200": "records:0fd1efedf0ab1050e24c0c9b2dfbdd13dc1395c28affbaf2376ac68915938611",
+    "mbpp_test": "records:9251df270fa8eacd088251bdfc9cff9a0e944f9662dfa62e517f47e1cf1a3907"
+  }
+}

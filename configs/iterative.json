@@ -1,0 +1,25 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "chat_template_date": "11 Aug 2026",
+  "precision": "float16",
+  "max_new_tokens": 1024,
+  "repetition_penalty": 1.0,
+  "logical_batch_size": 200,
+  "epsilon": 0.001,
+  "learning_rate": 0.000001,
+  "learning_rate_grids": {"mezo": [0.000001, 0.00001, 0.0001], "zo-finetuner": [0.00000001, 0.0000001, 0.000001]},
+  "calibration_seed": 39,
+  "calibration_steps": 500,
+  "final_steps": 1500,
+  "development_interval": 100,
+  "max_terminal_development_accuracy_drop": 0.05,
+  "final_seeds": [42, 43, 44],
+  "meta": {
+    "seed": 38, "epochs": 15, "batch_size": 4, "reset_every_epochs": 5,
+    "trajectory_lr": 0.00001, "trajectory_momentum": 0.8, "trajectory_grad_clip": 1.0,
+    "generator_lr": 0.01, "update_lr": 0.000001, "epsilon": 0.001,
+    "precision": "float32", "max_sequence_length": 2048,
+    "expected_valid_solutions": 196, "expected_excluded_ids": [800, 1781, 1353, 1454]
+  }
+}

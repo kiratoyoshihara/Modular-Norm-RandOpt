@@ -1,0 +1,422 @@
+[
+  {
+    "file": "profiles/gemma3-4b-countdown-modular-shell-official-randopt.json",
+    "source_sha256": "e03d8460a735ddc3036d867cdb408db405b21849c32177ae2fc097adb7986138",
+    "published_sha256": "66135ecb2f5cb6535fd0a78cdba9ae5fe677ad42744997ad84d5dab908a69347",
+    "model": "google/gemma-3-4b-it"
+  },
+  {
+    "file": "profiles/llama3.2-3b-countdown-modular-shell-official-randopt.json",
+    "source_sha256": "c8ef5c204ebef73307ae974cc678a92e4a09c40e2b962f57651c48688b553c87",
+    "published_sha256": "67390844f8f480d2e086b4f7fb90f0451fb31c1d974164be82fed61f2a6c5310",
+    "model": "meta-llama/Llama-3.2-3B-Instruct"
+  },
+  {
+    "file": "profiles/olmo3-7b-countdown-modular-shell-official-randopt.json",
+    "source_sha256": "43c27e97378ee78dda4f54fb516205d1820ff16f1d6cd92a8b335dd42d7f5a45",
+    "published_sha256": "d26ea8029c0008c290fc79cc1310afe343c123d2bd1b35f1e8a1376f7545b9c2",
+    "model": "allenai/Olmo-3-7B-Instruct"
+  },
+  {
+    "file": "profiles/qwen2.5-0.5b-countdown-modular-shell.json",
+    "source_sha256": "edadee3e3fa03786c4e0f17193609d1ce651b2847d092bb13a1f56ab4f608a48",
+    "published_sha256": "4a45bb0fa068105fd332638335a46c10a783c572570e323387f6d3b04865f8d5",
+    "model": "Qwen/Qwen2.5-0.5B-Instruct"
+  },
+  {
+    "file": "profiles/qwen2.5-1.5b-countdown-modular-shell.json",
+    "source_sha256": "702c167a7df5ce23c7f4cf2f1adc6c810a257d914beee427f93e3be6ff4ddc30",
+    "published_sha256": "da5397c1dc884b83c4c7531c2f1cd01af97ea7488f56aa24b1fb20ca7e22a1bf",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct"
+  },
+  {
+    "file": "profiles/qwen2.5-3b-countdown-modular-shell.json",
+    "source_sha256": "e9e95e861185f81d1c679978de64ff5e9742d7c84787cfe39ca30e9b149d6c2d",
+    "published_sha256": "1453bc490c0269601bc01db19505d6049373633ecbcdd5f09ad60f73786aec6f",
+    "model": "Qwen/Qwen2.5-3B-Instruct"
+  },
+  {
+    "figure": 3,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "task": "countdown",
+    "method": "Modular Norm RandOpt",
+    "seed": 42,
+    "candidate_records_sha256": "516ce1242835ba9000f59bdfdade7f61f5c98b4f03a26f588953db1648052dc8"
+  },
+  {
+    "figure": 3,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "task": "countdown",
+    "method": "Modular Norm RandOpt",
+    "seed": 43,
+    "candidate_records_sha256": "e2453832150451803c8a4034646b33a7b93a5561d9fdbaf0ac6b5f15e1fe412f"
+  },
+  {
+    "figure": 3,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "task": "countdown",
+    "method": "Modular Norm RandOpt",
+    "seed": 44,
+    "candidate_records_sha256": "60878a6d04bd4f85fe856f4a60a28a06eec78d74decc6bb9c0cdd1af66c6adbf"
+  },
+  {
+    "figure": 3,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "task": "countdown",
+    "method": "RandOpt",
+    "seed": 42,
+    "candidate_records_sha256": "0a2d1804afbe02d774c8dcc3b8a2f66afc829c690c877644417b0533850ce623"
+  },
+  {
+    "figure": 3,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "task": "countdown",
+    "method": "RandOpt",
+    "seed": 43,
+    "candidate_records_sha256": "8eaff3fda9ff3d09aabef68f84bd2c202776db55cd405882ff4260975d3f0436"
+  },
+  {
+    "figure": 3,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "task": "countdown",
+    "method": "RandOpt",
+    "seed": 44,
+    "candidate_records_sha256": "3bba4e4825e5448c84eb0cb1c9ac88c81260f050718f79554e91279827be8f1f"
+  },
+  {
+    "figure": 3,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "task": "gsm8k",
+    "method": "Modular Norm RandOpt",
+    "seed": 42,
+    "candidate_records_sha256": "d899834715e94cb78dcc627c976608e718ba7a917d60d6dd0b8d461a452ad496"
+  },
+  {
+    "figure": 3,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "task": "gsm8k",
+    "method": "Modular Norm RandOpt",
+    "seed": 43,
+    "candidate_records_sha256": "cb7bd6455f363f6b2daafbf41cb5282e8d773fae6b5833d5a9ffb4f5b3e6978f"
+  },
+  {
+    "figure": 3,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "task": "gsm8k",
+    "method": "Modular Norm RandOpt",
+    "seed": 44,
+    "candidate_records_sha256": "8b8d5f9c01cddfeeac89a4f2fb990d6250b6a8f28b8cbecd720b7c9520b2f955"
+  },
+  {
+    "figure": 3,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "task": "gsm8k",
+    "method": "RandOpt",
+    "seed": 42,
+    "candidate_records_sha256": "94d296a4658ba49d7d1b4715a427b07d29ab0c4a2f2ff658309cf69ccbd36f3a"
+  },
+  {
+    "figure": 3,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "task": "gsm8k",
+    "method": "RandOpt",
+    "seed": 43,
+    "candidate_records_sha256": "8736699d2af6a5767952e6b147c6fc4a3e84eaa1e7f17d1b693c4b6e18f4cd5a"
+  },
+  {
+    "figure": 3,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "task": "gsm8k",
+    "method": "RandOpt",
+    "seed": 44,
+    "candidate_records_sha256": "4ee57d99a68859cef5a95395fd1c27d43053a6b6bfbcc98623df565e467053ff"
+  },
+  {
+    "figure": 3,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "task": "math500",
+    "method": "Modular Norm RandOpt",
+    "seed": 42,
+    "candidate_records_sha256": "ddf7b655c5877976a8e344eb6844c2408ad000f7665309e351487ccef96930a8"
+  },
+  {
+    "figure": 3,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "task": "math500",
+    "method": "Modular Norm RandOpt",
+    "seed": 43,
+    "candidate_records_sha256": "d051c96055c82600937ec18f87c43e72c1c8988a605b4e70f7a33089db656523"
+  },
+  {
+    "figure": 3,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "task": "math500",
+    "method": "Modular Norm RandOpt",
+    "seed": 44,
+    "candidate_records_sha256": "18f285ad3da4971003eada49bdaa2afb488d19e5dac9005425857326073a4498"
+  },
+  {
+    "figure": 3,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "task": "math500",
+    "method": "RandOpt",
+    "seed": 42,
+    "candidate_records_sha256": "4f4dcf4ced7477c7c1074534e23ed4939745175e1d87311fb32ad963c4c8357a"
+  },
+  {
+    "figure": 3,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "task": "math500",
+    "method": "RandOpt",
+    "seed": 43,
+    "candidate_records_sha256": "b6630647525ac80b5bd5bdede01f6c31bcfd56c3e5cebe15cd9ea071db57035a"
+  },
+  {
+    "figure": 3,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "task": "math500",
+    "method": "RandOpt",
+    "seed": 44,
+    "candidate_records_sha256": "7c3d1ad76ca977727a50636965f481844f1f7463b9ec3c34e838ba7270b36348"
+  },
+  {
+    "figure": 3,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "task": "mbpp",
+    "method": "Modular Norm RandOpt",
+    "seed": 42,
+    "candidate_records_sha256": "f6ea0e7da8d806ca5fcad4b1e164bfd2049e042d5c28170e674da149438b2694"
+  },
+  {
+    "figure": 3,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "task": "mbpp",
+    "method": "Modular Norm RandOpt",
+    "seed": 43,
+    "candidate_records_sha256": "c876657c7d25cb02e0ee1734ff65149602a7ffe2f611eb1f799f77be24cdaf95"
+  },
+  {
+    "figure": 3,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "task": "mbpp",
+    "method": "Modular Norm RandOpt",
+    "seed": 44,
+    "candidate_records_sha256": "9a561c7c7832d270c72b38eae57420e9b0bed303a1730914552189cf0f9b7940"
+  },
+  {
+    "figure": 3,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "task": "mbpp",
+    "method": "RandOpt",
+    "seed": 42,
+    "candidate_records_sha256": "edff8bf85df0b55e2b4e1d8a3287599ccf1071641024aa42a741715d20047dd4"
+  },
+  {
+    "figure": 3,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "task": "mbpp",
+    "method": "RandOpt",
+    "seed": 43,
+    "candidate_records_sha256": "505b73cac36cd5580b3fbd177417f071f66a3661f3c5857b5d992e09e68a9c9d"
+  },
+  {
+    "figure": 3,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "task": "mbpp",
+    "method": "RandOpt",
+    "seed": 44,
+    "candidate_records_sha256": "4cbf881e11a4015cfee5a21a1498f5f428fb9e3cb02f1f00cff50cd1c10bb143"
+  },
+  {
+    "figure": 3,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "task": "olympiadbench",
+    "method": "Modular Norm RandOpt",
+    "seed": 42,
+    "candidate_records_sha256": "a3a2c68b29ef695e2691c21fa5d8e7b37182ed7252b43453a7bdbb494a80d03e"
+  },
+  {
+    "figure": 3,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "task": "olympiadbench",
+    "method": "Modular Norm RandOpt",
+    "seed": 43,
+    "candidate_records_sha256": "96dc1bd2c028b7dc0716e4298487fcc52a4b1446683bb9b26ae807f4abc03705"
+  },
+  {
+    "figure": 3,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "task": "olympiadbench",
+    "method": "Modular Norm RandOpt",
+    "seed": 44,
+    "candidate_records_sha256": "253710b35b246d941f303c314ac8799dbf2291fe1a309b8065234af6b824e738"
+  },
+  {
+    "figure": 3,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "task": "olympiadbench",
+    "method": "RandOpt",
+    "seed": 42,
+    "candidate_records_sha256": "4361739d3d2c6544d59bcb9abee12c90720983508c6c50020136718dd8edc763"
+  },
+  {
+    "figure": 3,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "task": "olympiadbench",
+    "method": "RandOpt",
+    "seed": 43,
+    "candidate_records_sha256": "1063cfcce7c856003cc2fa32738305c4ea29c2c3dc71d7e1e7041b2154097b60"
+  },
+  {
+    "figure": 3,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "task": "olympiadbench",
+    "method": "RandOpt",
+    "seed": 44,
+    "candidate_records_sha256": "faf31a849752f55fcd65596bacf3fbf250313682bce86546c9c161357aaf3908"
+  },
+  {
+    "figure": 3,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "task": "rocstories",
+    "method": "Modular Norm RandOpt",
+    "seed": 42,
+    "candidate_records_sha256": "3c8225d84efd35427a4492aadcc5e4c0378c6f16dfb58bd1176e4348c13af4b8"
+  },
+  {
+    "figure": 3,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "task": "rocstories",
+    "method": "Modular Norm RandOpt",
+    "seed": 43,
+    "candidate_records_sha256": "2e57a77cdfa5b25b6a8e1ef548fc63fbbcb0632074beaa75c863f1d6e365584e"
+  },
+  {
+    "figure": 3,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "task": "rocstories",
+    "method": "Modular Norm RandOpt",
+    "seed": 44,
+    "candidate_records_sha256": "76419d1747f65a780bda9004d60f2acb7d058c0aac8c31c716ca942ce0df32d6"
+  },
+  {
+    "figure": 3,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "task": "rocstories",
+    "method": "RandOpt",
+    "seed": 42,
+    "candidate_records_sha256": "a55c3cd377559e4eb55bd76461c13a6a657b1964ee1faedd252b646daaba1fba"
+  },
+  {
+    "figure": 3,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "task": "rocstories",
+    "method": "RandOpt",
+    "seed": 43,
+    "candidate_records_sha256": "b0fe04e7f760a0e85179103f65deacf3a25e677c7afe50a698039ddfd4b352f5"
+  },
+  {
+    "figure": 3,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "task": "rocstories",
+    "method": "RandOpt",
+    "seed": 44,
+    "candidate_records_sha256": "ea21cfaf03d268698c0bc55d8b203de8595b1cc311ac1ba0ba20c73243807411"
+  },
+  {
+    "figure": 3,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "task": "uspto50k",
+    "method": "Modular Norm RandOpt",
+    "seed": 42,
+    "candidate_records_sha256": "41599d5f90f62095c188efa452a5b253bb2a83fcc68092df11958e8a73fa225a"
+  },
+  {
+    "figure": 3,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "task": "uspto50k",
+    "method": "Modular Norm RandOpt",
+    "seed": 43,
+    "candidate_records_sha256": "68863e79ab4dc01bafb7b017d4a96a03d4997e83ab5bf5f2b76c652e8a4c6e5f"
+  },
+  {
+    "figure": 3,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "task": "uspto50k",
+    "method": "Modular Norm RandOpt",
+    "seed": 44,
+    "candidate_records_sha256": "0d389932278ee568d0a62de4ef7b59969ab831537e73cdbb53056c1d73b8c603"
+  },
+  {
+    "figure": 3,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "task": "uspto50k",
+    "method": "RandOpt",
+    "seed": 42,
+    "candidate_records_sha256": "94456bada001ca38f1d2bed755602edc1a5c63a0e7ffd0f8edd60584b4be6303"
+  },
+  {
+    "figure": 3,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "task": "uspto50k",
+    "method": "RandOpt",
+    "seed": 43,
+    "candidate_records_sha256": "9bebcb9e5a77def350aacaaeab00f8eea05afa028e75bf48d3d7f65c5d8ef1eb"
+  },
+  {
+    "figure": 3,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "task": "uspto50k",
+    "method": "RandOpt",
+    "seed": 44,
+    "candidate_records_sha256": "bd8b80229b7174c629f60ad19382a3e306e6b41ffb636a9cec4e0a7dd17945e6"
+  },
+  {
+    "figure": 4,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "task": "gsm8k",
+    "method": "RandOpt",
+    "seed": 42,
+    "candidate_records_sha256": "30e11d5330c2abd1dc172b49a86479ced83fc509dffdf8c286726c68c6f520ef"
+  },
+  {
+    "figure": 4,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "task": "gsm8k",
+    "method": "RandOpt",
+    "seed": 43,
+    "candidate_records_sha256": "0b65a0b60dd30c22df98519a7ebea09357fa2cd8d0d1b684a562392cfe6e7328"
+  },
+  {
+    "figure": 4,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "task": "gsm8k",
+    "method": "RandOpt",
+    "seed": 44,
+    "candidate_records_sha256": "85b3cb2554ae6d1a4399e0f78a0f9aa15aed3f673a21e3b8f3d4950f60a6fd4d"
+  },
+  {
+    "figure": 4,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "task": "gsm8k",
+    "method": "Modular Norm RandOpt",
+    "seed": 42,
+    "candidate_records_sha256": "308f96606201e7f5a041f4529941ec457f5d7a335ef0dafe1895fb238ad3b390"
+  },
+  {
+    "figure": 4,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "task": "gsm8k",
+    "method": "Modular Norm RandOpt",
+    "seed": 43,
+    "candidate_records_sha256": "e1afb227429812d1825575fa497f85432a606606637e3aa9a7f707a7ea8610d7"
+  },
+  {
+    "figure": 4,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "task": "gsm8k",
+    "method": "Modular Norm RandOpt",
+    "seed": 44,
+    "candidate_records_sha256": "a401e4e8cde1625ba3590d061aac93279924299db148f6fbf7458b7f6799b243"
+  }
+]

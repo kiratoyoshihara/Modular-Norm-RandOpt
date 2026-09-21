@@ -1,0 +1,27 @@
+{
+  "sha256": "7bfe9844a904755cd89385a821daf8d51d3484c0b7007e76ba72e041238314e3",
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "preparation": {
+    "seed": 38,
+    "epochs": 15,
+    "batch_size": 4,
+    "reset_every_epochs": 5,
+    "trajectory_lr": 1e-05,
+    "trajectory_momentum": 0.8,
+    "trajectory_grad_clip": 1.0,
+    "generator_lr": 0.01,
+    "update_lr": 1e-06,
+    "epsilon": 0.001,
+    "precision": "float32",
+    "max_sequence_length": 2048,
+    "expected_valid_solutions": 196,
+    "expected_excluded_ids": [
+      800,
+      1781,
+      1353,
+      1454
+    ]
+  },
+  "logical_batch_size": 200
+}
