@@ -4,7 +4,7 @@
 
 [Project page](https://kiratoyoshihara.github.io/Modular-Norm-RandOpt-page/) · [Experiment settings](configs/experiments.json) · [Results](results/)
 
-[![Modular Norm RandOpt: sample noise, apply module-wise scaling, select top-K candidates, and vote.](assets/method.svg)](https://kiratoyoshihara.github.io/Modular-Norm-RandOpt-page/#overview)
+[![Modular Norm RandOpt: sample noise, apply module-wise scaling, select top-K candidates, and vote.](assets/method.gif)](https://kiratoyoshihara.github.io/Modular-Norm-RandOpt-page/#overview)
 
 ## Quickstart
 
